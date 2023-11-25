@@ -1,0 +1,42 @@
+.body {
+	background-image:url(image.png);
+	background-size: cover;
+}
+.box {
+	background: red;
+	height: 400px;
+	width: 200px;
+	position: absolute;
+}
+.target1 {
+	background-image: url(2.png);
+	height: 30px;
+	width: 160px;
+	position: absolute;
+	left: 559px;
+	top: 159px;
+}
+.target2 {
+	background-image: url(3.png);
+	height: 40px;
+	width: 180px;
+	position: absolute;
+	left: 560px;
+	top: 445px;
+}
+.target3 {
+	background-image: url(4.png);
+	height: 60px;
+	width: 190px;
+	position: absolute;
+	left: 550px;
+	top: 86px;
+}
+.target4{
+	background-image: url(5.png);
+	height: 20px;
+	width: 80px;
+	position: absolute;
+	left: 595px;
+	top: 598px;
+}

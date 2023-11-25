@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body">
+	<div class="box">
+		<h1>Очки: <span class="pointer">0</span> </h1>
+		<h1 class="apple">найди нас
+		</h1>
+		<h1 class="apple">найди нас
+		</h1>
+		<h1 class="apple">найди нас
+		</h1>
+		<h1 class="apple">найди нас
+		</h1>
+	</div>
+
+	<div class="target1">
+		
+	</div>
+	<div class="target2">
+		
+	</div>
+	<div class="target3">
+		
+	</div>
+	<div class="target4">
+		
+	</div>
+
+	<script type="text/javascript">
+		let score = 0;
+
+		document.querySelector(".target1").onclick= function() {
+			score = score +1;
+			document.querySelector(".pointer").innerHTML = score;
+			document.querySelector(".target1").style.display = "none"
+			document.querySelector(".apple").style.textDecoration = "line-through";
+			alert(" я написал не скоре срок")
+		}
+
+		document.querySelector(".target2").onclick= function() {
+			score = score +1;
+			document.querySelector(".target2").style.display = "none"
+			document.querySelector(".pointer").innerHTML = score;
+			document.querySelector(".apple").style.textDecoration = "line-through";
+			alert(" я написал не скоре срок")
+		}
+		document.querySelector(".target3").onclick= function() {
+			score = score +1;
+			document.querySelector(".target3").style.display = "none"
+			document.querySelector(".pointer").innerHTML = score;
+			document.querySelector(".apple").style.textDecoration = "line-through";
+			alert(" я написал не скоре срок")
+		}
+		document.querySelector(".target4").onclick= function() {
+			score = score +1;
+			document.querySelector(".target4").style.display = "none"
+			document.querySelector(".pointer").innerHTML = score;
+			document.querySelector(".apple").style.textDecoration = "line-through";
+			alert(" я написал не скоре срок")
+		}
+	
+
+	</script>
+</body>
+</html>
